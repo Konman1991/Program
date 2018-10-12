@@ -5,6 +5,7 @@
  * Once done, a menu will displayed show. To active it, you will have to enter
  * a number next to the item of your choosing. To go back to the menu, hit run again.
  */
+
 package test;
 
 import java.util.Scanner;
@@ -16,37 +17,34 @@ public class Main {
 		    		    Scanner scan = new Scanner(System.in);
 		    // This is the Display menu
 		    System.out.println("Enter a #");
-		    System.out.println("1. Cat?");
-		    System.out.println("2. Math examples");
-		    System.out.println("3. Strings");
-		    System.out.println("4. Questions");
-		    System.out.println("5. Methods");
-		    System.out.println("6. Generator");
+		    System.out.println("1. Math examples");
+		    System.out.println("2. Strings");
+		    System.out.println("3. Questions");
+		    System.out.println("4. Methods");
+		    System.out.println("5. Generator");
 		    selection = scan.nextInt();//Where input is entered.
 		    switch(selection) {
+		 
 		    case 1:
-		    	Cat.n1(); //
+		    	Math.n1(); //Math
 		    	break;
 		    case 2:
-		    	Math.n2(); //Math
+		    	Strings.n2(); //Strings
 		    	break;
 		    case 3:
-		    	Strings.n3(); //Strings
+		    	Looping.n3(); //Looping
 		    	break;
 		    case 4:
-		    	Looping.n4(); //Looping
+		    	Methods.n4(); //Methods
 		    	break;
 		    case 5:
-		    	Methods.n5(); //Methods
-		    	break;
-		    case 6:
-		    	Generator.n6(); //Generator
+		    	Generator.n5(); //Generator
 		    	break;
 		    default:
 		    	System.out.println("Invalid selection");
 		    }
-scan.close();
-		  }
+		    scan.close();
+		  }//end of method
 	}
 
 

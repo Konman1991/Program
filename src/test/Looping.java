@@ -3,7 +3,7 @@ package test;
 import java.util.Scanner;
 
 public class Looping {
-	public static void n4 () {
+	public static void n3 () {
 	    Scanner scanner = new Scanner(System.in);
 	    boolean continueProgram = true;
 	    int menuChoice = 0;
@@ -13,13 +13,13 @@ public class Looping {
 	      System.out.println("Do you want to answer some Questions?\nIf yes enter 1\nIf no enter 2");
 	      menuChoice = scanner.nextInt();
 	      if (menuChoice == 1) {
-	    	  System.out.println("Awesome. Here is the first question."+ System.lineSeparator() + " ");
+	    	  System.out.println("Awesome. Here is the first question.\n ");
 	    	  
 	      } else {
-	    	  System.out.println("Fine be that way" + System.lineSeparator() + " ");
+	    	  System.out.println("Fine be that way.\n ");
 	    	  menuChoice = scanner.nextInt();
 	      }
-	      
+	      //First question
 	      System.out.println("Which is better? Dogs or Cats?\nEnter 1 for Dogs\nEnter 2 for Cats.");
 	      menuChoice = scanner.nextInt();
 	      if (menuChoice == 1) {
@@ -28,7 +28,7 @@ public class Looping {
 	      } else {System.out.println("BAD! CATS ARE EVIL!\nOkay. Next question.\n");
 	      
 	     }
-		  
+		  //Second question
 	      System.out.println("Which do you prefer? Pen or Pencil?\nEnter 1 for Pens\nEnter 2 for Pencils.");
 	      menuChoice = scanner.nextInt();
 		  if (menuChoice == 1) {
@@ -39,7 +39,7 @@ public class Looping {
 		    	  menuChoice = scanner.nextInt();
 		 }
 	    scanner.close();
-	}
+	}//end of method
 	}
 	}
 	
