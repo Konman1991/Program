@@ -3,7 +3,7 @@ package test;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Math {
+public class MathProblems {
 	
 	public static void n1() {
 		
