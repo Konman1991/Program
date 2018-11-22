@@ -3,7 +3,9 @@ package test;
 import java.util.Scanner;
 
 public class Looping {
+	
 	public static void n3 () {
+		
 	    Scanner scanner = new Scanner(System.in);
 	    boolean continueProgram = true;
 	    int menuChoice = 0;
@@ -36,7 +38,7 @@ public class Looping {
 		    	  
 		 } else { 
 		    	  System.out.println("Pencils are nice but they break too easilie.\n");
-		    	  menuChoice = scanner.nextInt();
+		    	 // menuChoice = scanner.nextInt();
 		 }
 	    scanner.close();
 	}//end of method
