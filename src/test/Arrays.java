@@ -11,10 +11,13 @@ public class Arrays {
 			      System.out.println("One-Dimensional array:");// 1-D Array
 			      int[] anArray = { 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, };//Declared, Instantiation, and Initialization
 
-			      for (int i = 0; i < anArray.length; i++) {
+			      /*for (int i = 0; i < anArray.length; i++) {
 				        System.out.println(anArray[i]);
-				      }
-			      System.out.println("Index position of 60 is: "+ findIndex(anArray, 60));
+				      }*/
+			      for (int t : anArray) {//enhanced for loop
+			    	  System.out.print(t+" ");
+			      }
+			      System.out.println("\nIndex position of 60 is: "+ findIndex(anArray, 60));
 			      
 			      
 			      
