@@ -2,7 +2,7 @@ package test;
 import java.util.Random;
 import java.util.Arrays;
 
-public class randomArray{
+public class RandomArray{
 	
 	private static int[] theArray;
 	

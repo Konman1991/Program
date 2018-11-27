@@ -62,7 +62,7 @@ public class Main {
 				Arrays.n9(); // Arrays
 				break;
 			case 10:
-				randomArray.n10(); // Arrays but randomly made
+				RandomArray.n10(); // Arrays but randomly made
 				break;
 			case 11:
 				ListArray.n11(); // ArraysList

@@ -19,7 +19,8 @@ public class Looping {
 	    	  
 	      } else {
 	    	  System.out.println("Fine be that way.\n ");
-	    	  menuChoice = scanner.nextInt();
+	    	  break;
+	    	  
 	      }
 	      //First question
 	      System.out.println("Which is better? Dogs or Cats?\nEnter 1 for Dogs\nEnter 2 for Cats.");
@@ -31,16 +32,17 @@ public class Looping {
 	      
 	     }
 		  //Second question
-	      System.out.println("Which do you prefer? Pen or Pencil?\nEnter 1 for Pens\nEnter 2 for Pencils.");
+	     System.out.println("Which do you prefer? Pen or Pencil?\nEnter 1 for Pens\nEnter 2 for Pencils.");
 	      menuChoice = scanner.nextInt();
 		  if (menuChoice == 1) {
 			  System.out.println("Pens are nice but it can smears\n");
-		    	  
+		    	 break; 
 		 } else { 
 		    	  System.out.println("Pencils are nice but they break too easilie.\n");
 		    	 // menuChoice = scanner.nextInt();
-		 }
-	    scanner.close();
+		    	  break;
+	      
+	      }
 	}//end of method
 	}
 	}

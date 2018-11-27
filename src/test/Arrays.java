@@ -20,7 +20,6 @@ public class Arrays {
 			      System.out.println("\nIndex position of 60 is: "+ findIndex(anArray, 60));
 			      
 			      
-			      
 			      System.out.println("\nTwo-Dimensional array:");// 2-D Array
 			      
 			      int[][] twoArray = { {1,3,5,7,9}, {2,4,6,8,10} }; //Declared, Instantiation, and Initialization
