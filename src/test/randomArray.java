@@ -27,8 +27,8 @@ public class randomArray{
 		    	   	}
 		  
 		   System.out.println(Arrays.toString(theArray));
-		   System.out.println("Lowest value is: " + smallest);// lowest value output
-		   System.out.println("Hightest value is: " + highest);// highest value output
+		   System.out.println("Lowest value is: " + smallest);// smallest value
+		   System.out.println("Hightest value is: " + highest);// largest value
 		   System.out.println("Sum of the Array: " + sum);  //The total of the Array
 		   
 	   }

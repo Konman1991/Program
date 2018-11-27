@@ -41,7 +41,7 @@ public class Arrays {
 			    	  System.out.println();
 			    	  }
 			      System.out.println(num);
-			      System.out.print("The coordinates for 8: ("+indexI+","+indexJ+")\n");//Coordinates of value
+			      System.out.print("The coordinates for 8: ("+indexI+","+indexJ+")\n");//Coordinates of value index
 			     
 			      
 			      System.out.println("\nMulti-Dimensional array:");//Multi-D Array
@@ -62,7 +62,7 @@ public class Arrays {
 			      
 			   }
 		  
-			  public static int findIndex(int arr[], int t) {
+			  public static int findIndex(int arr[], int t) { //Identify the index
 				  if (arr == null) { 
 			            return -1; 
 			        } 
