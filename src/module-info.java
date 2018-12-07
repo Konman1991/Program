@@ -6,5 +6,5 @@
  *
  */
 module Project {
-	exports test;
+  exports test;
 }
